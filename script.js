@@ -46,7 +46,7 @@ gsap.fromTo('.submit_btn',{opacity: 0,y:-50, }, {opacity:1,y:0,ease: "back.inOut
 
 $('.Navigation--collapsed').click(function() {
   $('.Overlay').toggleClass('Overlay--on');
-
+  $('.Navigation').toggleClass("openNav")
   $('.BurgerMenu').toggleClass('BurgerMenu--on');
 });
 
@@ -116,6 +116,7 @@ function showTest(){
     
   }
 }
+
 
 
 

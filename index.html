@@ -14,37 +14,38 @@
     <title>Jayz</title>
 </head>
 <body>
-
+<div class="containerWrapper">
+  
     <!-- Navbar -->
 
     <nav class="Navigation">
       <section class="Navigation--collapsed">
         <div class="BurgerMenu"></div>
       </section>
-      <div class="Overlay" id="overlay">
+      <div class="Overlay" id="overlay"> 
         <ul class="Navigation-list">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">
+            <a class="nav-link active" aria-current="page" href="./index.html">
                
                 მთავარი</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/teacher.html">
+            <a class="nav-link" href="./teacher.html">
                
                 მასწავლებლები</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/courses.html">
+            <a class="nav-link" href="./courses.html">
                 
                 კურსები</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/price.html">
+            <a class="nav-link" href="./price.html">
                
                 ფასები</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about.html">
+            <a class="nav-link" href="./about.html">
             
                 ჩვენს შესახებ</a>
           </li>
@@ -115,183 +116,172 @@
  
     <!-- End Navbar -->
  
-        <div class="jumbotron">
+<div class="mainContentWrapper">
+  <div class="jumbotron">
      
       
-            <div class="main_banner">
-              <div class="intro_box  container" id="intro--box" style="display: none;">
-                <h1 id="heading1">ცოდნის დონის დასადგენი ტესტი</h1>
-                <h4 id="heading2">ტესტი შედგება X კითხვისგან.</h4>
-                <h4 id="heading3">ტესტის გასაკეთებლად გაქვს X წუთი.</h4>
-                <a href="/english_test.html" class="btn btn-primary " id="test_btn" onclick="showTimer()">დაწყება</a>
-            
-            </div>
-             <section class="main_section"  id="main--section"  style="display: none;">
-            
-              <div class="mask d-flex align-items-center h-100 gradient-custom-3" >
-                <div class="container h-100">
-                  <div class="form_row row d-flex justify-content-center align-items-center h-100">
-                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                      <div class="registration_card card" style="border-radius: 15px;">
-                        <div class="card-body p-5">
-                          <h2 class="text-uppercase text-center mb-5">Do It !</h2>
-            
-                          <form>
-            
-                            <div class="form-outline mb-4">
-                              <input type="text" id="form3Example1cg" class="form-control form-control-lg" placeholder="სახელი გვარი" />
-                              <label class="form-label" for="form3Example1cg"></label>
-                            </div>
-            
-                            <div class="form-outline mb-4">
-                              <input type="email" id="form3Example3cg" class="form-control form-control-lg" placeholder="ელ-ფოსტა" />
-                              <label class="form-label" for="form3Example3cg"></label>
-                            </div>
-                            <div class="form-outline mb-4">
-                              <input type="number" id="form3Example3cg" class="form-control form-control-lg" placeholder="ტელეფონი" />
-                              <label class="form-label" for="form3Example3cg"></label>
-                            </div>
-                            
-                            <div class="form-check d-flex justify-content-center mb-5">
-                              <input
-                                class="form-check-input me-2"
-                                type="checkbox"
-                                value=""
-                                id="form2Example3cg"
-                              />
-                              <label class="form-check-label" for="form2Example3g">
-                                I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
-                              </label>
-                            </div>
-            
-                            <div class="d-flex justify-content-center">
-                              <button type="button" class="second_reg_btn btn btn-success btn-block btn-lg gradient-custom-4 text-body" onclick="showSuccess()" id="success_btn">Do it now !</button>
-                             
-                            </div>
-            
-                            
-            
-                          </form>
-                          <div class="close_btn">
-                         <i class="fas fa-times  close-btn" onclick="hide()"></i>
-                        </div>
-                        </div>
-                      </div>
+    <div class="main_banner">
+      <div class="intro_box  container" id="intro--box" style="display: none;">
+        <h1 id="heading1">ცოდნის დონის დასადგენი ტესტი</h1>
+        <h4 id="heading2">ტესტი შედგება X კითხვისგან.</h4>
+        <h4 id="heading3">ტესტის გასაკეთებლად გაქვს X წუთი.</h4>
+        <a href="/english_test.html" class="btn btn-primary " id="test_btn" onclick="showTimer()">დაწყება</a>
+    
+    </div>
+     <section class="main_section"  id="main--section"  style="display: none;">
+    
+      <div class="mask d-flex align-items-center h-100 gradient-custom-3" >
+        <div class="container h-100">
+          <div class="form_row row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <div class="registration_card card" style="border-radius: 15px;">
+                <div class="card-body p-5">
+                  <h2 class="text-uppercase text-center mb-5">Do It !</h2>
+    
+                  <form>
+    
+                    <div class="form-outline mb-4">
+                      <input type="text" id="form3Example1cg" class="form-control form-control-lg" placeholder="სახელი გვარი" />
+                      <label class="form-label" for="form3Example1cg"></label>
                     </div>
-                  </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="email" id="form3Example3cg" class="form-control form-control-lg" placeholder="ელ-ფოსტა" />
+                      <label class="form-label" for="form3Example3cg"></label>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <input type="number" id="form3Example3cg" class="form-control form-control-lg" placeholder="ტელეფონი" />
+                      <label class="form-label" for="form3Example3cg"></label>
+                    </div>
+                    
+                    <div class="form-check d-flex justify-content-center mb-5">
+                      <input
+                        class="form-check-input me-2"
+                        type="checkbox"
+                        value=""
+                        id="form2Example3cg"
+                      />
+                      <label class="form-check-label" for="form2Example3g">
+                        I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                      </label>
+                    </div>
+    
+                    <div class="d-flex justify-content-center">
+                      <button type="button" class="second_reg_btn btn btn-success btn-block btn-lg gradient-custom-4 text-body" onclick="showSuccess()" id="success_btn">Do it now !</button>
+                     
+                    </div>
+    
+                    
+    
+                  </form>
+                  <div class="close_btn">
+                 <i class="fas fa-times  close-btn" onclick="hide()"></i>
+                </div>
                 </div>
               </div>
-            </section>
-            <div class="container-fluid">
-            
-        
-                <div class="registration_box  container" id="registration--box">
-                    <h1>ჯეის ლაბორატორია</h1>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fuga!</h4>
-                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fuga!</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fuga!</p>
-                    <a href="#" class="btn btn-primary " id="registration_btn" onclick="show()">რეგისტრაცია</a>
-
-                </div>
-       
-                <div class="container-success container" id="success" style="display: none;" >
-                  <h5>მადლობა რეგისტრაციისთვის, დაგიკავშირდებით</h5>
-                  <div class="close_btn2">
-                    <i class="fas fa-times  close-btn2" onclick="hide2()"></i>
-                  </div>
-                </div>
             </div>
-            </div>
-       
           </div>
-    
-
-     
-
-
-          
-<!-- Footer -->
-<footer class="footer bg-dark text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/JaysLaboratoryEDU" target="blank/" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-    
-      <a class="btn btn-outline-light btn-floating m-1" href="mailto:jayslaboratory@gmail.com" target="blank/" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-     
-      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/jays.laboratory/ " target="blank/" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-    </section>
-    <!-- Section: Social media -->
-
-   
-
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        ინგლისური ენის შესწავლა ინოვაციური მეთოდებითა და პროფესიონალი მოწვეული ლექტორებით
-      </p>
-    </section>
-    <!-- Section: Text -->
-
-    <!-- Section: Links -->
-    <section class="">
-      <!--Grid row-->
-      <div class="footer_box row">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">კონტაქტი</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white"> (+995) 568 82 82 10</a>
-            </li>
-            <li>
-              <a href="https://goo.gl/maps/xqobraLcbJdrB8RWA" class="text-white" target="/blank"> ქობულეთის ქუჩა 17 </a>
-            </li>
-            <li>
-              <a href="#!" class="text-white"> jayslaboratory@gmail.com</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">ორშაბათი - შაბათი 10:00 - 22:00</a>
-            </li>
-          </ul>
         </div>
-      
       </div>
     </section>
-  </div>
-        
-  <div class="copyright text-center p-3" >
-   <p>2022 ყველა უფლება დაცულია</p> 
-   Developed By <a class="text-white" href="https://www.linkedin.com/in/temo-gagnidze-71002a20b/" target="/blank"> <span>T.G</span>  </a>
+    <div class="container-fluid">
     
+
+        <div class="registration_box  container" id="registration--box">
+            <h1>ჯეის ლაბორატორია</h1>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fuga!</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fuga!</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fuga!</p>
+            <a href="#" class="btn btn-primary " id="registration_btn" onclick="show()">რეგისტრაცია</a>
+
+        </div>
+
+        <div class="container-success container" id="success" style="display: none;" >
+          <h5>მადლობა რეგისტრაციისთვის, დაგიკავშირდებით</h5>
+          <div class="close_btn2">
+            <i class="fas fa-times  close-btn2" onclick="hide2()"></i>
+          </div>
+        </div>
+    </div>
+    </div>
+
   </div>
+
+
+
+
+
+  
+<!-- Footer -->
+<footer class="footer bg-dark text-center text-white">
+<!-- Grid container -->
+<div class="container p-4">
+<!-- Section: Social media -->
+<section class="mb-4">
+<a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/JaysLaboratoryEDU" target="blank/" role="button"
+><i class="fab fa-facebook-f"></i
+></a>
+
+<a class="btn btn-outline-light btn-floating m-1" href="mailto:jayslaboratory@gmail.com" target="blank/" role="button"
+><i class="fab fa-google"></i
+></a>
+
+
+<a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/jays.laboratory/ " target="blank/" role="button"
+><i class="fab fa-instagram"></i
+></a>
+
+</section>
+<!-- Section: Social media -->
+
+
+
+<!-- Section: Text -->
+<section class="mb-4">
+<p>
+ინგლისური ენის შესწავლა ინოვაციური მეთოდებითა და პროფესიონალი მოწვეული ლექტორებით
+</p>
+</section>
+<!-- Section: Text -->
+
+<!-- Section: Links -->
+<section class="">
+<!--Grid row-->
+<div class="footer_box row">
+<!--Grid column-->
+<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+  <h5 class="text-uppercase">კონტაქტი</h5>
+
+  <ul class="list-unstyled mb-0">
+    <li>
+      <a href="#!" class="text-white"> (+995) 568 82 82 10</a>
+    </li>
+    <li>
+      <a href="https://goo.gl/maps/xqobraLcbJdrB8RWA" class="text-white" target="/blank"> ქობულეთის ქუჩა 17 </a>
+    </li>
+    <li>
+      <a href="#!" class="text-white"> jayslaboratory@gmail.com</a>
+    </li>
+    <li>
+      <a href="#!" class="text-white">ორშაბათი - შაბათი 10:00 - 22:00</a>
+    </li>
+  </ul>
+</div>
+
+</div>
+</section>
+</div>
+
+<div class="copyright text-center p-3" >
+<p>2022 ყველა უფლება დაცულია</p> 
+Developed By <a class="text-white" href="https://www.linkedin.com/in/temo-gagnidze-71002a20b/" target="/blank"> <span>T.G</span>  </a>
+
+</div>
 </footer>
 <!-- Footer -->
-        
-        
 
-
-
-
-
-
-
-
-
-   
-
-
-    
+</div>   
+</div>
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
